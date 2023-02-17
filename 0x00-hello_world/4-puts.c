@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main-Entry point 
- * uses puts to print
- * Returns:0(Success)
+ * main - Entry point 
+ * Returns: Always 0 (Success)
  */
 int main(void)
 {
