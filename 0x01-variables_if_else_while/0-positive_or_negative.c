@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* betty style doc for function main goes there
-* main - Entry point
+* main - Entry point to assign random variable
 * Description: print positive or negative number
 * Return: Always 0 (success)
 */
