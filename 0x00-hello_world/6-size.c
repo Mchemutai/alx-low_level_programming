@@ -1,15 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - prints sizes of various computer
- * types
- * Return: Always 0 (Sucess)
+ * main - Entry point
+ * Description: Prints data types using printf() function & sizeof operator
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-printf("size of a char: %zu byte(s)\n", size of(char));
-printf("size of an int: %zu byte(s)\n", size of(int));
-printf("size of a long int: %zu byte(s)\n", size of(long int));
-printf("size of a long long int: %zu byte(s)\n", size of(long long int));
-printf("size of a float: %zu byte(s)\n", size of(float));
-return (0);
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %zu byte(s)\n", sizeof(float));
+	return (0);
 }
