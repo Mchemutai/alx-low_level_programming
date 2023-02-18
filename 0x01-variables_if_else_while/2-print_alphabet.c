@@ -15,7 +15,7 @@ int a;
 for (a = 0; a < 26; a++)
 {
 putchar (Alp[a]);
-putchar ('\n');
 }
+putchar ('\n');
 return (0);
 }
