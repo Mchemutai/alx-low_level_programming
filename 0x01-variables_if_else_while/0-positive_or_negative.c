@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - Entry point to assign random variable
+* main - Entry point
 * Description: print positive or negative number
 * Return: Always 0 (success)
 */
