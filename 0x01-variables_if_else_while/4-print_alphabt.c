@@ -10,12 +10,12 @@
 
 int main(void)
 {
-char Lowerc[26] = "abcdefghijklmnopqrstuvwxyz";
-int a;
-for (a = 0; a < 26; a++)
+char Lowerc;
+
+for (Lowerc = 'a'; Lowerc <= 'z'; Lowerc++)
 {
 if (Lowerc != 'e' && Lowerc != 'q')
-putchar (Lowerc);
+putchar(Lowerc);
 }
 putchar ('\n');
 return (0);
