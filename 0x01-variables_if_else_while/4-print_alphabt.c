@@ -14,7 +14,8 @@ char Lowerc[26] = "abcdefghijklmnopqrstuvwxyz";
 int a;
 for (a = 0; a < 26; a++)
 {
-putchar (Lowerc[a && a != 'q' && a != 'e']);
+if (Lowerc != 'e' && Lowerc != 'q')
+putchar (Lowerc);
 }
 putchar ('\n');
 return (0);
