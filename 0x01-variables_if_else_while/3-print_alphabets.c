@@ -17,8 +17,8 @@ a = 0;
 for (a = 0; a < 26; a++)
 {
 putchar (Lowerc[a]);
-putchar ('\n');
 putchar (Upperc[a]);
 }
+putchar ('\n');
 return (0);
 }
