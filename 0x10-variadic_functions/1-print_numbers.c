@@ -6,7 +6,7 @@
 *print_numbers - function  to print numbers followed by new line
 *
 *@n:argument
-*@*separator: function argument
+*@separator: string to be printed between lines
 *Return  numbers
 */
 
@@ -18,7 +18,7 @@ va_start(args, n);
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(args, int));
-if (i <(n - 1) && separator != NULL)
+if (i < (n - 1) && separator != NULL)
 {
 printf("%s", separator);
 }
