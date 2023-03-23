@@ -14,6 +14,7 @@ va_list args;
 char *separator = "";
 int i = 0;
 char *s;
+
 va_start(args, format);
 while (format && format[i])
 {
@@ -40,11 +41,12 @@ printf("%s%s", separator, s);
 }
 break;
 default:
-break;
+i++;
+continue;
 }
 separator = ", ";
 i++;
 }
-va_end(args);
 printf("\n");
+va_end(args);
 }
